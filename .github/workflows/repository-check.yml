@@ -1,0 +1,37 @@
+name: Repository Structure Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify required project structure
+        shell: bash
+        run: |
+          set -e
+          required=(
+            "README.md"
+            "CONTRIBUTING.md"
+            "TEAM.md"
+            "data/raw"
+            "data/processed"
+            "data/documentation"
+            "tableau/workbooks"
+            "tableau/exports"
+            "report"
+            "presentation"
+            "video"
+            "final_submission/SUBMISSION_CHECKLIST.md"
+            "docs/VISUALIZATION_PLAN.md"
+          )
+          for item in "${required[@]}"; do
+            if [ ! -e "$item" ]; then
+              echo "Missing required item: $item"
+              exit 1
+            fi
+          done
+          echo "Repository structure is valid."

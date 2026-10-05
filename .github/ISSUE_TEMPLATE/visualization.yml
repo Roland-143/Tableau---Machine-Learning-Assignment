@@ -1,0 +1,34 @@
+name: Tableau Visualization
+description: Plan and track one required Tableau visualization
+labels: ["tableau", "visualization"]
+body:
+  - type: input
+    id: chart
+    attributes:
+      label: Visualization
+      placeholder: "07 — 10-Year Growth Bar Chart"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Analytical question
+      description: What question should this chart answer?
+    validations:
+      required: true
+  - type: textarea
+    id: fields
+    attributes:
+      label: Fields / calculations
+      description: List required dimensions, measures, filters, and calculated fields.
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      value: |
+        - [ ] Visualization completed
+        - [ ] Title/axes/units checked
+        - [ ] Tooltip/legend checked
+        - [ ] Analysis notes written
+        - [ ] Export saved in correct folder
+        - [ ] Reviewed by teammate

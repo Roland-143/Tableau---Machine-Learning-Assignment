@@ -1,0 +1,30 @@
+name: Report / Presentation Task
+description: Track writing, analysis, presentation, or video work
+labels: ["documentation"]
+body:
+  - type: input
+    id: section
+    attributes:
+      label: Section / deliverable
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Charts / evidence required
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      value: |
+        - [ ] Content drafted
+        - [ ] Evidence/figures included
+        - [ ] Claims checked against data
+        - [ ] Citations checked
+        - [ ] Reviewed by teammate

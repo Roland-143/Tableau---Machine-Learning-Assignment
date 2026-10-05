@@ -1,0 +1,30 @@
+name: Data Task
+description: Track source, cleaning, validation, or calculated-data work
+labels: ["data"]
+body:
+  - type: input
+    id: task
+    attributes:
+      label: Data task
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source / input
+  - type: textarea
+    id: transformation
+    attributes:
+      label: Transformation or validation
+      description: Explain what will change or what needs to be checked.
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      value: |
+        - [ ] Raw source preserved
+        - [ ] Transformation documented
+        - [ ] 16-state coverage checked
+        - [ ] 10-year coverage checked
+        - [ ] Duplicate State × Year rows checked
+        - [ ] Units verified

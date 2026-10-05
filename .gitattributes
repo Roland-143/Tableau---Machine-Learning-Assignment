@@ -1,0 +1,9 @@
+* text=auto
+*.csv text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.twb text eol=lf
+*.twbx binary
+*.pptx binary
+*.pdf binary
+*.xlsx binary

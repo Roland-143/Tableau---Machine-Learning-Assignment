@@ -1,0 +1,35 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*
+
+# Temporary Tableau files
+*.twbr
+*.tfl
+*.tflx
+*.hyper.tmp
+
+# Large local video recordings - use shared storage and keep link/notes in video/README.md
+video/*.mp4
+video/*.mov
+video/*.mkv
+video/*.avi
+video/*.webm
+
+# Temporary Office/PDF exports
+*.tmp
+*.bak
+
+# Python/R optional tooling
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+.venv/
+venv/
+
+# Keep placeholders
+!.gitkeep
