@@ -1,0 +1,8 @@
+MEMBER 1 VERIFIED DATA VALIDATION
+Rows: 160
+States: 16
+Years: 10 (2016-2025)
+Duplicate State-Year rows: 0
+Units: Millions of chained 2017 dollars
+Source: BEA via current FRED table-data pages
+Status: PASS
