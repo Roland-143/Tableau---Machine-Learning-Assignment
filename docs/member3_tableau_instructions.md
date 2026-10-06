@@ -9,6 +9,8 @@ Use the two Member 3 extracts:
 
 Both extracts use annual Real GDP in millions of chained 2017 dollars. The state extract retains the project’s original 16 states; it does not fill or add observations. Connect to each CSV separately in Tableau Desktop with **Connect → To a File → Text File**.
 
+The existing `.twbx` belongs to Member 1. To avoid editing a teammate-owned binary workbook, build these sheets in a separate Member 3 workbook, for example `tableau/workbooks/Member3_Regional_Pandemic_Analysis.twbx`, and combine workbooks during final integration.
+
 ## Calculated fields
 
 The extracts already contain `YoY_Growth_Pct` for state rows and `Regional_YoY_Growth_Pct` for regional aggregates. Prefer these validated source fields in the specified views. To demonstrate the state calculation in Tableau, create **YoY GDP Growth % (Table Calc)**:
