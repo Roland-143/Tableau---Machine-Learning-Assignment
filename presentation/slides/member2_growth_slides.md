@@ -184,10 +184,68 @@ economic output rather than simply changes caused by inflation.
 ---
 
 ## Slide 4 — Which Regions Contributed Most to Growth?
-**Recommended chart:** Pie chart
 
-- Key finding 1
-- Key finding 2
+**Recommended chart:** Pie Chart — Regional Share of Absolute Real GDP Growth Among Selected States, 2016–2025
 
-**Speaker notes:**
-...
+### Key Findings
+
+- The **South contributed the largest share** of the combined absolute Real GDP increase at approximately **38.55%**.
+- The **West followed closely at 34.99%**.
+- Together, the South and West accounted for approximately **73.54%** of the total Real GDP added by the 16 selected states.
+- The Northeast contributed **16.27%**, while the Midwest contributed **10.20%**.
+
+### What the Visualization Represents
+
+This pie chart takes the absolute GDP increases calculated in Visualization 3 and groups them by Census region.
+
+For each state:
+
+Absolute Growth = 2025 Real GDP - 2016 Real GDP
+
+The four state-level increases within each region are then added together.
+
+Each region's percentage is:
+
+Regional Absolute GDP Increase
+----------------------------------------- × 100
+Combined Increase Across All 16 States
+
+Because the pie chart represents parts of one combined total, all four regional shares add to approximately 100%.
+
+### Speaker Notes
+
+This final visualization moves the analysis from individual states to a regional
+part-to-whole comparison.
+
+In Visualization 3, we compared the amount of Real GDP added by individual
+states. Here, we take those same absolute increases and combine the four states
+belonging to each region.
+
+The South contributed the largest share of the combined increase at about
+38.55 percent. The West was close behind at 34.99 percent. Together, those two
+regions account for roughly 73.54 percent of all additional Real GDP produced
+by the 16 states in our sample.
+
+It is important to clarify what these percentages mean. The South's 38.55
+percent does NOT mean that the South's economy grew by 38.55 percent.
+
+Instead, it means that when we add together all of the absolute Real GDP growth
+across our 16 selected states, the four Southern states account for 38.55
+percent of that combined increase.
+
+This also differs from Visualization 1. The first visualization measured each
+state's proportional growth relative to its own starting point. This pie chart
+uses absolute growth and then aggregates those dollar-equivalent increases by
+region.
+
+It also differs from Visualization 3 because Visualization 3 preserves the
+individual states. This chart sacrifices that state-level detail in order to
+answer a broader question: which regions account for the largest portions of
+the total increase?
+
+The South's large share is influenced particularly by Texas and Florida, while
+the West's share is strongly influenced by California and Washington.
+
+Finally, these results apply only to the four selected states in each region.
+They should not be interpreted as the shares for every state in the complete
+U.S. Census regions.
