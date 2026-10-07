@@ -307,26 +307,134 @@ The South and West together account for roughly three-quarters of the combined a
 ---
 
 ## Visualization 4 — Regional Share of GDP Growth
+
 **Type:** Pie Chart
 
 ### Question
-...
+
+What share of the combined absolute Real GDP increase among the 16 selected states came from each Census region between 2016 and 2025?
 
 ### Calculation
-...
+
+The calculation begins with the same state-level absolute growth measure used in Visualization 3:
+
+2025 Real GDP - 2016 Real GDP
+
+The absolute increases for the four selected states within each Census region are then added together.
+
+For each region:
+
+Regional Absolute GDP Growth =
+Sum of the absolute GDP increases of the four selected states in that region
+
+The regional share is then calculated as:
+
+Regional Absolute GDP Growth
+----------------------------------------- × 100
+Total Absolute GDP Growth Across All 16 States
+
+Because each region represents one part of the same combined total, the four regional shares sum to approximately 100%.
 
 ### Key Finding
-...
+
+The **South contributed the largest share** of the combined absolute Real GDP increase among the selected states, accounting for approximately **38.55%** of total growth.
+
+The **West followed closely at 34.99%**. Together, the South and West accounted for approximately **73.54%** of all additional Real GDP produced by the 16 selected states between 2016 and 2025.
+
+The Northeast contributed approximately **16.27%**, while the Midwest accounted for approximately **10.20%**.
 
 ### Interpretation
-...
+
+This visualization changes the level of analysis from individual states to regional contributions.
+
+The percentage shown for each region is not the region's own GDP growth rate. For example, the South's 38.55% does not mean that Southern GDP increased by 38.55%. Instead, it means that the four selected Southern states account for 38.55% of the total absolute Real GDP increase produced by all 16 selected states.
+
+The South's relatively large contribution is influenced by strong absolute increases from states such as Texas and Florida. Similarly, the West's share is influenced heavily by California's large absolute increase, along with growth from Washington, Arizona, and Colorado.
+
+The pie chart is appropriate because the four regional values represent parts of one meaningful total. Unlike Visualization 3, which preserves the differences between individual states, this visualization aggregates those state-level changes to reveal the broader regional composition of growth.
+
+These results apply only to the four selected states within each region. They should not be interpreted as representing the complete economic performance of every state in the Northeast, Midwest, South, or West.
+
+### Significance
+
+The regional-share analysis shows that absolute economic expansion within the selected sample was concentrated unevenly across regions.
+
+The South and West together accounted for nearly three-quarters of the combined absolute Real GDP increase, demonstrating how regional aggregation can reveal patterns that are less obvious when examining individual states separately.
 
 ---
 
 ## Overall Growth Findings
-Summarize what all four visualizations collectively tell us.
+
+Taken together, the four Member 2 visualizations show that economic growth can be interpreted in several different ways and that no single measure provides a complete picture.
+
+The packed bubble chart shows **proportional long-term growth**. Washington experienced the highest percentage increase in Real GDP among the selected states at approximately **44.41%**, followed by Texas at **42.89%** and Arizona at **41.53%**. This visualization emphasizes how much each state's economy expanded relative to its own 2016 starting level.
+
+The histogram provides a different perspective by examining **annual year-over-year growth behavior** rather than one decade-long result. Across the 144 state-year observations from 2017 through 2025, most annual growth rates were concentrated around moderate positive values, particularly between approximately **1% and 4%**. Negative growth and exceptionally high annual growth occurred less frequently.
+
+The Gantt/range chart shows that **absolute growth produces a different ranking from proportional growth**. California added approximately **$805.63 billion** in Real GDP, the largest absolute increase among the selected states, followed by Texas at approximately **$700.70 billion**. Washington, despite ranking first in proportional growth, added a smaller absolute amount because it began the period with a much smaller economy than California.
+
+Finally, the regional pie chart shows how those absolute increases combine at a broader geographic level. The South accounted for approximately **38.55%** of the combined increase, followed by the West at **34.99%**.
+
+Collectively, these results demonstrate that the meaning of "growth" depends on the measure being used. A state can be:
+
+- one of the fastest growing proportionally,
+- responsible for a large absolute increase,
+- part of a region contributing heavily to total growth,
+- or experience annual growth patterns that differ substantially from its long-term result.
+
+Therefore, proportional growth, absolute growth, annual growth, and regional contribution should be interpreted as complementary measures rather than interchangeable rankings.
+
+---
 
 ## Relationship to Other Team Visualizations
-Explain how Member 1 focuses on economic size,
-Member 2 focuses on long-term growth,
-and Member 3 focuses on pandemic/regional changes.
+
+The team's visualizations are designed to examine the same Real GDP dataset from different analytical perspectives.
+
+### Member 1 — Economic Size
+
+Member 1 focuses primarily on the **size and concentration of state economies**.
+
+These visualizations answer questions such as:
+
+- Which selected states had the largest Real GDP in 2025?
+- Where are the largest selected economies located geographically?
+- How concentrated is total GDP among a small number of states?
+- How did absolute GDP levels move across the full 2016–2025 period?
+
+For example, the 2025 ranking shows California as the largest selected economy. This describes economic size, but it does not necessarily mean California experienced the fastest proportional growth.
+
+### Member 2 — Long-Term Growth
+
+Member 2 focuses on **how economic output changed and how growth should be measured**.
+
+The four visualizations distinguish between:
+
+- proportional growth over the full decade,
+- annual year-over-year growth,
+- absolute GDP increases,
+- and regional shares of total absolute growth.
+
+This section therefore builds on the economic-size analysis by asking not simply which economies are largest, but how much they expanded and how the answer changes depending on the growth measure used.
+
+### Member 3 — Pandemic, Recovery, and Regional Patterns
+
+Member 3 focuses more specifically on **short-term disruption, recovery, and differences across states and regions**, particularly around the 2020–2022 period.
+
+Those visualizations examine questions such as:
+
+- Which states experienced the largest 2020 declines?
+- How strongly did states recover in 2021?
+- How widely were annual growth rates distributed across regions?
+- How did state rankings change during and after the disruption?
+
+This complements Member 2's long-term analysis. Member 2 summarizes growth across the decade and compares different measures of expansion, while Member 3 examines how particular years, especially the pandemic period, interrupted or altered those longer-term patterns.
+
+### Combined Analytical Value
+
+Together, the three sections provide different but complementary perspectives:
+
+- **Member 1:** How large are the economies?
+- **Member 2:** How much did they grow, and how should growth be measured?
+- **Member 3:** How were those growth paths disrupted and how did states recover?
+
+Using these perspectives together prevents the project from treating economic size, long-term growth, and short-term disruption as the same concept. The combined analysis provides a more complete description of how Real GDP changed across the selected states between 2016 and 2025.
