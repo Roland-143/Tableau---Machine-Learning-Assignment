@@ -1,48 +1,178 @@
 # Member 2 — Long-Term Growth Analysis
 
 ## Scope and Method
-Explain:
-- focus on long-term economic growth
-- 2016–2025 period
-- Real GDP
-- millions of chained 2017 dollars
-- difference between GDP level and GDP growth
-- calculations used
 
-## Visualization 1 — 10-Year Real GDP Growth by State
-**Type:** Packed Bubble Chart
+This section examines long-term Real GDP growth across the 16 selected U.S.
+states from 2016 through 2025. While other visualizations in the project
+focus on the absolute size of state economies or short-term changes surrounding
+the 2020 pandemic disruption, this section focuses primarily on how much each
+state's economy grew over the full study period.
 
-### Question
-Which states grew the most proportionally from 2016 to 2025?
+Real GDP is measured in millions of chained 2017 dollars. Using Real GDP rather
+than nominal GDP allows comparisons across years without treating general price
+increases as increases in actual economic output.
 
-### Calculation
-(2025 GDP - 2016 GDP) / 2016 GDP × 100
+Two related but different concepts are important throughout this analysis:
+GDP level and GDP growth. GDP level represents the total amount of real economic
+output produced by a state at a particular point in time. GDP growth measures
+how much that output increased or decreased relative to an earlier value.
 
-### Key Finding
-...
+For the long-term comparison, proportional growth between 2016 and 2025 is
+calculated as:
 
-### Interpretation
-...
+(2025 Real GDP - 2016 Real GDP) / 2016 Real GDP × 100
 
-### Difference from Other Visualizations
-Explain why this differs from Member 1's line chart.
+This calculation makes states of different economic sizes easier to compare.
+A state with a smaller economy can therefore have a higher proportional growth
+rate than a state with a much larger economy.
 
 ---
 
+## Visualization 1 — 10-Year Real GDP Growth by State
+
+**Type:** Packed Bubble Chart
+
+### Question
+
+Which of the selected states experienced the greatest proportional increase in
+Real GDP between 2016 and 2025?
+
+### Calculation
+
+The visualization uses each state's total percentage growth over the study
+period:
+
+(2025 Real GDP - 2016 Real GDP) / 2016 Real GDP × 100
+
+Each bubble represents one state. The size of the bubble represents the state's
+2016–2025 Real GDP growth percentage, while color identifies the Census region
+associated with the state.
+
+### Key Finding
+
+Washington experienced the highest proportional Real GDP growth among the
+16 selected states, increasing approximately **44.41%** between 2016 and 2025.
+Texas followed at approximately **42.89%**, while Arizona increased
+approximately **41.53%**.
+
+At the opposite end of the comparison, Pennsylvania experienced the lowest
+proportional increase among the selected states at approximately **9.54%**.
+
+The results demonstrate that the states with the largest economies are not
+necessarily the states with the highest rates of long-term growth.
+
+### Interpretation
+
+The packed bubble chart emphasizes relative economic expansion rather than
+economic size. Washington's large bubble does not mean that Washington produced
+the greatest amount of Real GDP in 2025. Instead, it indicates that Washington's
+2025 Real GDP was substantially larger relative to its own 2016 starting level.
+
+This distinction is important when comparing states such as California and
+Washington. California remains a substantially larger economy in absolute
+Real GDP, but its proportional increase over the study period was lower than
+Washington's. Therefore, ranking states by economic size and ranking states by
+growth rate can produce very different results.
+
+The visualization also provides regional context through color. Several of the
+strongest proportional growth values occur among selected Western and Southern
+states. However, the sample contains only four states from each Census region,
+so these results should not be interpreted as complete measurements of regional
+economic performance.
+
+### Difference from the 2016–2025 Line Chart
+
+This visualization uses the same general 2016–2025 study period as the
+project's multi-line Real GDP chart, but the two visualizations answer different
+questions.
+
+The line chart preserves each annual GDP observation from 2016 through 2025.
+Its purpose is to display the year-by-year trajectory of each state's Real GDP,
+including changes in economic level, periods of expansion, and temporary
+declines.
+
+The packed bubble chart instead reduces the beginning and ending values into a
+single proportional-growth measurement for each state. Intermediate yearly
+values do not determine the size of the bubble.
+
+Therefore:
+
+- The **line chart** answers: "How did each state's Real GDP change over time?"
+- The **packed bubble chart** answers: "Which states grew the most relative to
+  their 2016 starting point by 2025?"
+
+Using both perspectives prevents economic size from being confused with
+economic growth. A state may remain one of the largest economies throughout
+the decade without having the highest proportional growth rate.
+
+### Significance
+
+The main finding is that long-term economic performance depends on the measure
+being used. Looking only at total GDP would emphasize the largest state
+economies, while proportional growth identifies states whose economic output
+expanded the most relative to their starting positions.
+
+The packed bubble chart therefore complements the project's economic-size
+visualizations by providing a direct comparison of long-term growth rather than
+another comparison of absolute GDP levels.
+
 ## Visualization 2 — Annual Growth Distribution
+
 **Type:** Histogram
 
 ### Question
-...
+
+How are annual year-over-year Real GDP growth rates distributed across the 16 selected states from 2017 through 2025?
 
 ### Calculation
-...
+
+Year-over-year growth measures how much a state's Real GDP changed relative to the previous year:
+
+(Current Year Real GDP - Previous Year Real GDP)
+------------------------------------------------ × 100
+              Previous Year Real GDP
+
+The analysis begins in 2017 because the dataset starts in 2016. A 2016 year-over-year growth rate would require 2015 Real GDP data, which is outside the study period.
+
+For each of the 16 states, growth is calculated for the nine yearly transitions from 2016→2017 through 2024→2025. This produces:
+
+16 states × 9 annual growth observations = 144 state-year observations.
+
+The histogram groups these 144 growth values into one-percentage-point bins. Each bar therefore represents the number of state-year observations whose year-over-year growth rate falls within a particular interval.
 
 ### Key Finding
-...
+
+The distribution is concentrated primarily around positive annual growth rates. The largest number of observations falls in the approximately **2%–3%** growth range, while many additional observations are concentrated between roughly **1% and 4%**.
+
+Negative annual growth observations occur less frequently than positive ones, and very high annual growth rates are also relatively uncommon. This suggests that moderate positive growth was the most typical annual outcome among the selected states during the study period.
 
 ### Interpretation
-...
+
+This histogram provides a different perspective from the 10-year packed bubble visualization.
+
+The packed bubble chart summarizes the entire 2016–2025 period into one proportional growth value for each state. It is useful for comparing which states experienced the greatest long-term expansion.
+
+The histogram instead examines short-term annual behavior. Every state contributes multiple observations because each year-over-year change is treated separately. As a result, the histogram does not identify which individual state grew the most. Instead, it shows which annual growth rates were most common across the full sample.
+
+The concentration of observations around modest positive growth indicates that most state-year changes were neither severe contractions nor exceptionally rapid expansions. Negative-growth bins represent periods in which Real GDP declined from the previous year, while the relatively small number of very high positive-growth observations represent unusually strong annual increases.
+
+### Difference from Visualization 1
+
+Visualization 1 asks:
+
+"Which states grew the most proportionally between 2016 and 2025?"
+
+Visualization 2 asks:
+
+"What annual growth rates occurred most frequently across all selected states and years?"
+
+The first visualization compares states using one long-term measure per state. The histogram instead summarizes the frequency distribution of 144 annual state-year growth observations.
+
+### Significance
+
+The histogram adds context that a long-term growth measure cannot provide on its own. Two states can end the decade with similar total growth while having very different year-to-year patterns. One may have experienced steady moderate increases, while another may have experienced sharp declines followed by strong recoveries.
+
+By examining the distribution of annual growth rates, this visualization helps describe what a typical year of Real GDP growth looked like across the selected states and highlights the difference between common annual behavior and unusual economic changes.
 
 ---
 
