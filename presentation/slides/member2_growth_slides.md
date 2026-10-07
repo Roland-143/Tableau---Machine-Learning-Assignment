@@ -111,13 +111,75 @@ So Slide 1 focuses on total long-term growth by state, while Slide 2 focuses on 
 ---
 
 ## Slide 3 — Which States Added the Most Real GDP?
-**Recommended chart:** Gantt / range chart
 
-- Key finding 1
-- Key finding 2
+**Recommended chart:** Gantt / Range Chart — Absolute Real GDP Change, 2016–2025
 
-**Speaker notes:**
-...
+### Key Findings
+
+- California added approximately **$805.63 billion** in Real GDP, the largest absolute increase among the selected states.
+- Texas followed with approximately **$700.70 billion**, while Florida added about **$397.67 billion**.
+- Washington had the highest proportional growth in Visualization 1, but added about **$220.15 billion** in absolute Real GDP.
+- This demonstrates that the state with the fastest percentage growth is not necessarily the state that added the greatest amount of economic output.
+
+### What the Visualization Represents
+
+Each Gantt bar represents the change in a state's Real GDP between 2016 and 2025.
+
+- The **left edge** of the bar represents the state's 2016 Real GDP.
+- The **right edge** represents its approximate 2025 Real GDP.
+- The **length of the bar** represents the absolute amount of Real GDP added during the period.
+- Color represents Census region.
+
+Absolute change is calculated as:
+
+2025 Real GDP - 2016 Real GDP
+
+### Speaker Notes
+
+This visualization asks a different question from the packed bubble chart on Slide 1.
+
+Slide 1 measured proportional growth. That calculation divides the amount of
+growth by the state's 2016 starting GDP:
+
+(2025 GDP - 2016 GDP) / 2016 GDP × 100
+
+Dividing by the starting value normalizes the comparison. This allows a smaller
+economy and a larger economy to be compared based on how much they grew relative
+to their own starting positions.
+
+This Gantt chart does not normalize by the starting value. It measures the raw
+amount of additional Real GDP produced between 2016 and 2025:
+
+2025 GDP - 2016 GDP
+
+Because of that, large economies can have an advantage in this visualization.
+For example, California began the period with a much larger economy than
+Washington. California grew by a lower percentage than Washington, but because
+its starting economic base was much larger, California still added about
+$805.63 billion in Real GDP compared with Washington's approximately
+$220.15 billion.
+
+The Gantt format helps show both pieces of information. The horizontal position
+shows where each state's economy started in 2016, while the length of the bar
+shows how much additional Real GDP was added by 2025.
+
+Therefore, these first and third visualizations should not be interpreted as
+competing rankings. They measure two different concepts:
+
+Slide 1 asks:
+"How much did each state's economy grow relative to where it started?"
+
+Slide 3 asks:
+"How much additional Real GDP did each state actually add?"
+
+This distinction explains why Washington can rank first in proportional growth
+while California ranks first in absolute growth.
+
+The labels are shown in billions of chained 2017 dollars for readability.
+The original dataset reports Real GDP in millions of chained 2017 dollars, so
+the absolute-change values were divided by 1,000 when displayed as labels.
+Using chained 2017 dollars means the comparison reflects changes in real
+economic output rather than simply changes caused by inflation.
 
 ---
 

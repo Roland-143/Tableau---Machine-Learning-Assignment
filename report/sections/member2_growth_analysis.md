@@ -177,19 +177,132 @@ By examining the distribution of annual growth rates, this visualization helps d
 ---
 
 ## Visualization 3 — Absolute GDP Change
+
 **Type:** Gantt / Range Chart
 
 ### Question
-...
+
+Which selected states added the greatest amount of Real GDP between 2016 and 2025?
 
 ### Calculation
-2025 GDP - 2016 GDP
+
+Absolute Real GDP change is calculated as:
+
+2025 Real GDP - 2016 Real GDP
+
+Unlike proportional growth, this calculation does not divide by the state's starting GDP. It therefore measures the actual amount of additional real economic output added over the study period.
+
+The source dataset reports Real GDP in millions of chained 2017 dollars. For readability, the labels in the visualization convert the absolute-change values from millions to billions by dividing by 1,000.
 
 ### Key Finding
-...
+
+California experienced the largest absolute increase in Real GDP among the selected states, adding approximately **$805.63 billion** in chained 2017 dollars between 2016 and 2025.
+
+Texas followed with an increase of approximately **$700.70 billion**, while Florida added approximately **$397.67 billion** and New York added approximately **$300.28 billion**.
+
+At the lower end of the selected states, Pennsylvania added approximately **$71.03 billion**.
 
 ### Interpretation
-...
+
+This visualization measures a different form of economic growth from the packed bubble chart in Visualization 1.
+
+Visualization 1 measures proportional growth by dividing each state's increase by its 2016 starting GDP. This makes states with very different economic sizes more comparable because growth is measured relative to each state's own starting point.
+
+Visualization 3 instead measures the raw amount of Real GDP added. It does not normalize for starting size. As a result, states that began the period with larger economies can add a greater absolute amount of economic output even if their percentage growth rate is lower.
+
+California and Washington illustrate this distinction clearly. Washington had the highest proportional growth rate among the selected states, but California added substantially more Real GDP in absolute terms.
+
+The Gantt chart represents both the starting point and the amount of change. The left edge of each bar indicates the state's 2016 Real GDP, while the length of the bar represents the additional Real GDP added by 2025.
+
+### Difference from Visualization 1
+
+Visualization 1 asks:
+
+"How much did each state's economy grow relative to its 2016 starting point?"
+
+Visualization 3 asks:
+
+"How much additional Real GDP did each state add in absolute terms?"
+
+Therefore, a state can rank highly in one visualization and lower in the other. The two measures describe different aspects of long-term economic performance.
+
+### Significance
+
+Using both proportional and absolute growth prevents one measure from dominating the interpretation of economic performance.
+
+Percentage growth is useful for comparing relative expansion across states of different sizes, while absolute growth shows which states contributed the greatest amount of additional economic output.
+
+Together, the two visualizations demonstrate why "fastest growing" and "largest increase" are not equivalent concepts.
+
+---
+
+## Visualization 4 — Regional Share of GDP Growth
+
+**Type:** Pie Chart
+
+### Question
+
+What share of the combined absolute Real GDP increase among the 16 selected states came from each Census region between 2016 and 2025?
+
+### Calculation
+
+First, the absolute Real GDP increase is calculated for every state:
+
+2025 Real GDP - 2016 Real GDP
+
+The state-level increases are then summed within each region:
+
+Regional Absolute Growth =
+Sum of absolute GDP change for the four selected states in that region
+
+Finally, each region's share of the combined increase is calculated as:
+
+Regional Absolute Growth
+-------------------------------- × 100
+Total Absolute Growth of All 16 States
+
+The four regional shares therefore represent portions of the same combined total and sum to approximately 100%.
+
+### Key Finding
+
+Among the 16 selected states, the **South contributed the largest share of total absolute Real GDP growth**, accounting for approximately **38.55%** of the combined increase from 2016 to 2025.
+
+The **West followed at approximately 34.99%**, while the **Northeast accounted for about 16.27%** and the **Midwest approximately 10.20%**.
+
+In absolute terms, the selected states added approximately:
+
+- South: **$1.403 trillion**
+- West: **$1.273 trillion**
+- Northeast: **$592.15 billion**
+- Midwest: **$371.22 billion**
+
+### Interpretation
+
+This visualization shifts the analysis from individual states to a regional part-to-whole comparison.
+
+The pie chart does not show which region had the highest percentage growth rate. Instead, it shows how much each region contributed to the total amount of Real GDP added by all 16 selected states.
+
+The South's large share is influenced strongly by states such as Texas and Florida, both of which experienced large absolute increases. The West also accounts for a substantial share, particularly because of California's large absolute increase and Washington's strong growth.
+
+The Northeast and Midwest contribute smaller shares of the combined increase within this selected-state sample.
+
+Because the project includes only four states from each Census region, these values represent the contribution of the selected states and should not be interpreted as the total economic growth of the complete Census regions.
+
+### Difference from Visualization 3
+
+Visualization 3 compares absolute GDP growth at the individual-state level.
+
+Visualization 4 aggregates those same state-level changes into four regional totals and asks a part-to-whole question:
+
+"What percentage of the combined Real GDP increase came from each region?"
+
+The Gantt chart is therefore stronger for comparing individual states, while the pie chart is stronger for showing how the total increase is distributed across a small number of regional categories.
+
+### Significance
+
+The regional-share view demonstrates that long-term economic expansion in the selected sample was not distributed evenly across regions.
+
+The South and West together account for roughly three-quarters of the combined absolute increase among the selected states. This provides a broader regional perspective that complements the state-level comparisons in the earlier visualizations.
 
 ---
 
